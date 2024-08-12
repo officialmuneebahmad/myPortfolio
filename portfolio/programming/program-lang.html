@@ -5,44 +5,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="program-lang.css">
-    <script src="https://kit.fontawesome.com/a19de92425.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
- <main class="main-sec">
+ <main class="main-sec" id="main">
     <div class="div-1">
-        <ul>
-            <li class="li-1"><a href="#"><i class="fa-regular fa-lightbulb"></i>Skills</a></li>
-            <li class="li-2"><a href="#"><i class="fa-solid fa-diagram-project fa-rotate-270"></i>Projects</a></li>
-            <li class="li-3"><a href="#"><i class="fa-solid fa-gamepad"></i>Hobbies</a></li>
+        <ul id="div-1-ul-1">
+            <li><a class="hoverable div-1-a0" href="../../index.html"><i class="fa-solid fa-arrow-left" title="Go Back"></i></a></li>
+            <li><a class="hoverable div-1-a1" id="a1" href="#"><i class="fa-regular fa-lightbulb" title="My Skill Set"></i>Skills</a></li>
+            <li><a class="hoverable div-1-a2" href="#"><i class="fa-solid fa-diagram-project fa-rotate-270" title="My Projects"></i>Projects</a></li>
+            <li><a class="hoverable div-1-a3" href="#"><i class="fa-solid fa-gamepad" title="My Enjoyment"></i>Hobbies</a></li>
         </ul>
     </div>
 
     <div class="div-2">
-        <ul>
+        <ul class="div-2-ul-1">
             <li><a  class="a-1" href="../portfolio.html"><i class="fa-solid fa-laptop-code"></i>Top</a></li>
             <li><a  class="a-2" href="../frameworks/frameworks.html"><i class="fa-solid fa-handshake-angle"></i>Frameworks</a></li>
             <li><a  class="a-3" href="./programming/program-lang.html"><i class="fa-solid fa-code"></i>Programming Languages</a></li>
             <li><a  class="a-4" href="../Tools&Soft/tools.html"><i class="fa-solid fa-toolbox"></i>Tools & Softwares</a></li>
+        </ul>
+        <ul class="div-2-ul-2">
+            <button id="toggleBtn" class="toggleBtn">
+                <i class="fas fa-moon"></i>
+              </button>
         </ul>
     </div>
 
     <div class="div-center">
         <div class="div-3">
             <ul class="ul-1">
-                <li><?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="c-lang" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20" height="20" viewBox="0 0 109.19 122.88" style="enable-background:new 0 0 109.19 122.88" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#000;} .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#000;} .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#000;} .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFBDA;}</style><g><path class="st0" d="M107.81,92.16c0.86-1.48,1.39-3.16,1.39-4.66V35.38c0-1.5-0.53-3.17-1.39-4.66L54.6,61.44L107.81,92.16 L107.81,92.16L107.81,92.16z"/><path class="st1" d="M59.33,121.75l45.14-26.06c1.3-0.75,2.48-2.05,3.34-3.53L54.6,61.44L1.39,92.16c0.86,1.48,2.04,2.78,3.34,3.53 l45.14,26.06C52.47,123.25,56.72,123.25,59.33,121.75L59.33,121.75L59.33,121.75z"/><path class="st2" d="M107.81,30.72c-0.86-1.48-2.04-2.78-3.34-3.53L59.33,1.13c-2.6-1.5-6.86-1.5-9.46,0L4.73,27.19 C2.13,28.69,0,32.38,0,35.38V87.5c0,1.5,0.53,3.17,1.39,4.66L54.6,61.44L107.81,30.72L107.81,30.72L107.81,30.72z"/><path class="st3" d="M54.6,97.84c-20.07,0-36.4-16.33-36.4-36.4s16.33-36.4,36.4-36.4c12.95,0,25.03,6.97,31.52,18.19l-15.75,9.12 c-3.25-5.62-9.29-9.1-15.77-9.1c-10.04,0-18.2,8.16-18.2,18.2c0,10.03,8.16,18.2,18.2,18.2c6.48,0,12.52-3.49,15.77-9.1l15.75,9.12 C79.63,90.87,67.55,97.84,54.6,97.84L54.6,97.84L54.6,97.84z"/></g></svg>C</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="c-plus-plus"><path d="M20.66 7a1.51 1.51 0 0 0-.55-.57l-7.34-4.24a1.67 1.67 0 0 0-1.54 0L3.89 6.43a1.68 1.68 0 0 0-.77 1.33v8.48a1.57 1.57 0 0 0 .22.76 1.51 1.51 0 0 0 .55.57l7.34 4.24a1.67 1.67 0 0 0 1.54 0l7.34-4.24a1.51 1.51 0 0 0 .55-.57 1.57 1.57 0 0 0 .22-.76V7.76a1.57 1.57 0 0 0-.22-.76zM12 17.92A5.92 5.92 0 1 1 17.13 9L16 9.71l-.36.2-1 .61A3 3 0 0 0 9 12a2.88 2.88 0 0 0 .4 1.48 3 3 0 0 0 5.13 0l2.6 1.52A5.94 5.94 0 0 1 12 17.92zm5.92-5.59h-.66V13h-.65v-.66H16v-.66h.66V11h.65v.66h.66zm2.47 0h-.66V13h-.66v-.66h-.65v-.66h.65V11h.66v.66h.66z"></path></svg>C++</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="python"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>Python</li>
-            </ul>
-        </div>
-        <div class="div-4">
-            <ul class="ul-2">
-                <li><meter min="0" value="90" max="100"></meter></li>
-                <li><meter min="0" value="50" max="100"></meter></li>
-                <li><meter min="0" value="50" max="100"></meter></li>
+                <li><i class="fa-brands fa-html5"></i>C Language - 80%<span class="fa-meter fa-m1"><meter min="0" value="80" max="100"></meter></span></li>
+                <li><i class="fa-brands fa-css3-alt"></i>C++ Language - 60%<span class="fa-meter fa-m2"><meter min="0" value="60" max="100"></meter></span></li>
+                <li><i class="fa-brands fa-css3-alt"></i>Python - 50%<span class="fa-meter fa-m2"><meter min="0" value="50" max="100"></meter></span></li>
             </ul>
         </div>
     </div>
 
  </main>
+
+ <script src="https://kit.fontawesome.com/a19de92425.js" crossorigin="anonymous"></script>
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    
+    // REFERENCES
+    let toggleButton = document.getElementById('toggleBtn');
+
+    var mainSec = document.getElementById("main");
+    var div1 = document.getElementById("div-1-ul-1");
+
+    let hoverItems = document.querySelectorAll('.hoverable');
+    let selected = document.getElementById('a1');
+    
+
+    // LOGIC
+    toggleButton.addEventListener('click', function() {
+        // Toggle the 'on' class
+        toggleButton.classList.toggle('on');
+
+        const icon = this.querySelector('i');
+            icon.classList.toggle('fa-sun');
+            icon.classList.toggle('fa-moon');
+        
+        // Update the button text and status based on the class
+        if (toggleButton.classList.contains('on')) {
+
+
+            
+
+            document.body.style.backgroundColor = "#0d2534";
+            mainSec.style.backgroundColor = "#0d2534";
+            div1.style.backgroundColor = "#173041";
+            document.body.style.color = "#ffffff";
+
+            // SPECIFIC FOR THIS HTML FILE !!!
+            // HEADER LINKS - bg color + radius
+            hoverItems.forEach(element => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#ffffff';
+                    element.style.color = '#183153';
+                    element.style.borderRadius = '10px';
+                }
+                else{
+                    element.style.backgroundColor = '#213c4e';
+                    element.style.color = '#ffffff';
+                    element.style.borderRadius = '10px';
+                }
+
+            });
+            
+            // HOVER EFFECT
+            hoverItems.forEach(element => {
+                element.addEventListener('mouseover', () => {
+                    if (element === selected) {
+                element.style.backgroundColor = '#FFFFFF'; // Change color on hover
+                element.style.color = '#183253';     
+                }
+                    else{
+                        element.style.backgroundColor = '#FFFFFF'; // Change color on hover
+                        element.style.color = '#183253';  
+                    }
+            });   
+
+            element.addEventListener('mouseout', () => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#ffffff'; // Revert color when not hovering
+                    element.style.color = '#183153';
+                }
+                else{
+                    element.style.backgroundColor = '#213c4e'; // Revert color when not hovering
+                    element.style.color = '#ffffff';
+                }
+               
+            });
+        });
+
+        } 
+        
+        
+        else 
+        
+        
+        {
+
+            document.body.style.backgroundColor = "#FFFBDA";
+            mainSec.style.backgroundColor = "#FFFBDA";
+            div1.style.backgroundColor = "#FFEC9E";
+            document.body.style.color = "#183153";
+
+            // SPECIFIC FOR THIS HTML FILE !!!
+            // HEADER LINKS - bg color + radius
+            hoverItems.forEach(element => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#fffbda';
+                    element.style.color = '#183153';
+                    element.style.borderRadius = '10px';
+                }
+                else{
+                    element.style.backgroundColor = '#FFEC9E';
+                    element.style.color = '#183153';
+                    element.style.borderRadius = '10px';
+                }
+
+            });
+            
+            // HOVER EFFECT
+            hoverItems.forEach(element => {
+                element.addEventListener('mouseover', () => {
+                    if (element === selected) {
+                element.style.backgroundColor = '#fffbda'; // Change color on hover
+                element.style.color = '#183253';     
+                }
+                    else{
+                        element.style.backgroundColor = '#fffbda'; // Change color on hover
+                        element.style.color = '#183253';  
+                    }
+            });   
+
+            element.addEventListener('mouseout', () => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#fffbda'; // Revert color when not hovering
+                    element.style.color = '#183153';
+                }
+                else{
+                    element.style.backgroundColor = '#FFEC9E'; // Revert color when not hovering
+                    element.style.color = '#183153';
+                }
+               
+            });
+        });
+        }
+
+
+    });
+});
+
+
+
+ </script>
+ 
 </body>
 </html>
