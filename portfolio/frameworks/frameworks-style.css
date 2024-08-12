@@ -235,7 +235,9 @@ body{
     /* border: 1px solid red; */
     margin: 0.5em 0.5em 0.5em 0em;
 }
-
+svg{
+    margin: 0.5em 0.5em 0em 0em;
+}
 
 /*      METER BARS  */
 .div-3 .ul-1 li .fa-meter{
