@@ -88,6 +88,8 @@ body{
     border-radius: 10px;
 }
 
+/* BACK BTN */
+
 
 
 /* DIV-2 */
@@ -204,7 +206,7 @@ body{
 
 /* ICONS */
 
-.fa-brands, .fa-solid, .fa-diagram-project, .fa-gamepad, .fa-laptop-code, .fa-handshake-angle, .fa-code, .fa-toolbox, .fa-mobile-button, .fa-desktop, .fa-regular, .bi{
+.fa-brands, .fa-film, .fa-diagram-project, .fa-gamepad, .fa-laptop-code, .fa-handshake-angle, .fa-code, .fa-toolbox, .fa-mobile-button, .fa-desktop, .fa-regular, .bi{
     /* border: 1px solid red; */
     margin: 0.5em 0.5em 0.5em 0em;
 }
