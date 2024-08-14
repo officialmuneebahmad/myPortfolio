@@ -181,6 +181,7 @@ body{
 .div-2 ul li a{
     text-decoration: none;
 
+    margin: 0.2em 0em;
     padding: 0.5em 1em;
 
     color: #183153;
