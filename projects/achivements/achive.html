@@ -62,6 +62,9 @@
     let selected = document.getElementById('a2');
 
     let cardColor = document.querySelectorAll('.colorfill');
+
+
+    let headDiv = document.querySelector('.head-div');
     
 
     // LOGIC
@@ -77,6 +80,9 @@
         if (toggleButton.classList.contains('on')) {
 
 
+        headDiv.style.color = "#ffffff";    
+        
+    
         cardColor.forEach(element => {
             element.style.backgroundColor = "#1f262b";
             element.style.color = "#ffffff";
@@ -146,6 +152,10 @@
         
         
         {
+
+
+            headDiv.style.color = "#183153"; 
+
 
          cardColor.forEach(element => {
             element.style.backgroundColor = "#fffbda";
