@@ -13,6 +13,15 @@ body{
     background-color: #FFFBDA;
     
 }
+/* LOGO */
+.logo{
+    /* border: 1px solid red; */
+    width: 44px;
+    height: auto;
+
+    border-radius: 25%;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0.2, 0.2);
+}
 
 /* NAV - BAR */
 .nav-bar ul{
@@ -60,6 +69,7 @@ body{
     transition: .2s all;
 }
 
+
 /* MAIN */
 main{
     /* border: 1px solid red; */
@@ -71,6 +81,8 @@ main{
     justify-content: start;
     align-items: center;
 }
+
+/* HAND SHAKE */
 .animate__animated.animate__shakeX:active {
     cursor: pointer;
     animation-iteration-count: infinite;
@@ -110,6 +122,8 @@ main{
     align-items: center;
 
     margin: 2em 4em;
+
+    width: 80%;
 }
 
 .hr-1{
