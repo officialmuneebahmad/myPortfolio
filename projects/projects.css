@@ -259,7 +259,7 @@ img{
     height: auto;
     border-radius: 10px;
     
-    margin: 0.5em;
+    margin: 0em;
 }
 .pic1{
     width: 45%;
@@ -268,10 +268,12 @@ img{
 .pic2{
     width: 45%;
     height: 50%;
+    margin: 1em;
 }
 .pic3{
     width:45%;
     height: 50%;
+    margin: 1em;
 }
 
 /*  SUBDIV IMG  */
@@ -315,7 +317,7 @@ img{
     font-style: normal;
 
     line-height: 24px;
-    left: 0.5px;
+    margin-left: 0.5px;
 
   
 }
@@ -332,5 +334,14 @@ img{
     align-items: center;
 
     margin-top: 1em;
+}
+.card{
+    margin: 1em 0em;
+}
+
+
+
+.spotify{
+    width: 100%;
 }
 
