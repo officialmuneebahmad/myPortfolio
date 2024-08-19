@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="icon" type="image/x-icon" href="../Preview.png">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ <main class="main-sec" id="main">
+    <div class="div-1">
+        <ul id="div-1-ul-1">
+            <li><a class="hoverable div-1-a0" href="../index.html"><i class="fa-solid fa-arrow-left" title="Go Back"></i></a></li>
+            <li><a class="hoverable div-1-a1" id="a1" href="../portfolio/portfolio.html"><i class="fa-regular fa-lightbulb" title="My Skill Set"></i>Skills</a></li>
+            <li><a class="hoverable div-1-a2" id="a2" href="./projects.html"><i class="fa-solid fa-diagram-project fa-rotate-270" title="My Projects"></i>Projects</a></li>
+            <li><a class="hoverable div-1-a3" href="../hobbies/hobby.html"><i class="fa-solid fa-gamepad" title="My Enjoyment"></i>Hobbies</a></li>
+        </ul>
+    </div>
+
+    <div class="div-2">
+        <ul class="div-2-ul-1">
+            <li><a  class="a-1" href="../projects/projects.html"><i class="fa-regular fa-clock"></i>Latest</a></li>
+            <li><a  class="a-2" href="./figma projects/fig.html"><i class="fa-brands fa-figma"></i>Figma Projects</a></li>
+            <li><a  class="a-3" href="../projects/web projects/web.html"><i class="fa-solid fa-code"></i>Web Projects</a></li>
+            <li><span id="achivement"><a  class="a-4" href="../projects/achivements/achive.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="medal"><rect width="256" height="256" fill="none"></rect><circle cx="127.994" cy="96" r="80" fill="none" stroke="#183153" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></circle><circle cx="127.994" cy="96" r="48" fill="none" stroke="#183153" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></circle><polyline fill="none" stroke="#183153" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" points="176 159.995 176 240 127.993 216 80 240 80 160.002"></polyline></svg>Achivements</a></span></li>
+        </ul>
+        <ul class="div-2-ul-2">
+            <button id="toggleBtn" class="toggleBtn">
+                <i class="fas fa-moon"></i>
+              </button>
+        </ul>
+    </div>
+
+        <div class="div-3">
+
+                        <!-- AUGUST UPLOADS -->
+
+                <!-- AUG - Project 1 -->
+
+                <div class="card card-1" >
+                    <a class="colorfill" href="https://dribbble.com/shots/24707028-Badoo-Social-App" target="_blank">
+                    
+                        <img class="spotify" src="../projects/figma projects/fig_imgs/10.1.jpg">
+    
+                        <div class="subdiv-1">
+                            <h3>Badoo Social App</h3>
+                            <p>
+                                Badoo is a social networking app designed to help users connect 
+                                with new people and find potential matches. It features a variety 
+                                of tools, including a swipe-based matching system, user profiles, 
+                                and messaging options. The app caters to a broad audience, 
+                                offering both casual and serious relationship opportunities. 
+                                Badoo includes various filters and search criteria to refine 
+                                matches. It’s available on multiple platforms, including iOS, Android, 
+                                and web browsers.
+                                    <br>
+                                    <br>
+                                <strong>Click on the project to view</strong> &nbsp;&nbsp;&nbsp; <time datetime="2024-08-18">August 18, 2024</time>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+            <!-- AMAZON APP -->
+
+
+                <div class="card card-1">
+                    <a href="https://dribbble.com/shots/24674642-Amazon-Shopping-Store" target="_blank">
+                        <div class="subdiv-img">
+
+                            <img class="pic1" src="./latest/smartmockups_lzh4f6mi.jpg" alt="pic-1">
+                            <img class="pic2" src="./latest/smartmockups_lzh4gg9s.jpg" alt="pic-2">
+                            <img class="pic3" src="./latest/smartmockups_lzh4h83c.jpg" alt="pic-3">
+                            
+                        </div>
+                        <div class="subdiv-1">
+                            <h3>Amazon Shopping App</h3>
+                            <p>
+                                Amazon's store is a vast online marketplace offering a diverse range 
+                                of products from books and electronics to clothing and groceries. With
+                                 user-friendly navigation and personalized recommendations, it makes 
+                                 shopping convenient and efficient. The platform provides customer 
+                                 reviews and ratings to help make informed purchasing decisions.
+                                    <br>
+                                    <br>
+                                <strong>Click on the project to view</strong> &nbsp;&nbsp;&nbsp; <time datetime="2024-08-12">August 12, 2024</time>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    
+
+ </main>
+
+ <script src="https://kit.fontawesome.com/a19de92425.js" crossorigin="anonymous"></script>
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    
+    // REFERENCES
+    let toggleButton = document.getElementById('toggleBtn');
+
+    var mainSec = document.getElementById("main");
+    var div1 = document.getElementById("div-1-ul-1");
+
+    let hoverItems = document.querySelectorAll('.hoverable');
+    let selected = document.getElementById('a2');
+    
+
+    // LOGIC
+    toggleButton.addEventListener('click', function() {
+        // Toggle the 'on' class
+        toggleButton.classList.toggle('on');
+
+        const icon = this.querySelector('i');
+            icon.classList.toggle('fa-sun');
+            icon.classList.toggle('fa-moon');
+        
+        // Update the button text and status based on the class
+        if (toggleButton.classList.contains('on')) {
+
+
+            
+
+            document.body.style.backgroundColor = "#0d2534";
+            mainSec.style.backgroundColor = "#0d2534";
+            div1.style.backgroundColor = "#173041";
+            document.body.style.color = "#ffffff";
+
+            // SPECIFIC FOR THIS HTML FILE !!!
+            // HEADER LINKS - bg color + radius
+            hoverItems.forEach(element => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#ffffff';
+                    element.style.color = '#183153';
+                    element.style.borderRadius = '10px';
+                }
+                else{
+                    element.style.backgroundColor = '#213c4e';
+                    element.style.color = '#ffffff';
+                    element.style.borderRadius = '10px';
+                }
+
+            });
+            
+            // HOVER EFFECT
+            hoverItems.forEach(element => {
+                element.addEventListener('mouseover', () => {
+                    if (element === selected) {
+                element.style.backgroundColor = '#FFFFFF'; // Change color on hover
+                element.style.color = '#183253';     
+                }
+                    else{
+                        element.style.backgroundColor = '#FFFFFF'; // Change color on hover
+                        element.style.color = '#183253';  
+                    }
+            });   
+
+            element.addEventListener('mouseout', () => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#ffffff'; // Revert color when not hovering
+                    element.style.color = '#183153';
+                }
+                else{
+                    element.style.backgroundColor = '#213c4e'; // Revert color when not hovering
+                    element.style.color = '#ffffff';
+                }
+               
+            });
+        });
+
+        } 
+        
+        
+        else 
+        
+        
+        {
+
+            document.body.style.backgroundColor = "#FFFBDA";
+            mainSec.style.backgroundColor = "#FFFBDA";
+            div1.style.backgroundColor = "#FFEC9E";
+            document.body.style.color = "#183153";
+
+            // SPECIFIC FOR THIS HTML FILE !!!
+            // HEADER LINKS - bg color + radius
+            hoverItems.forEach(element => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#fffbda';
+                    element.style.color = '#183153';
+                    element.style.borderRadius = '10px';
+                }
+                else{
+                    element.style.backgroundColor = '#FFEC9E';
+                    element.style.color = '#183153';
+                    element.style.borderRadius = '10px';
+                }
+
+            });
+            
+            // HOVER EFFECT
+            hoverItems.forEach(element => {
+                element.addEventListener('mouseover', () => {
+                    if (element === selected) {
+                element.style.backgroundColor = '#fffbda'; // Change color on hover
+                element.style.color = '#183253';     
+                }
+                    else{
+                        element.style.backgroundColor = '#fffbda'; // Change color on hover
+                        element.style.color = '#183253';  
+                    }
+            });   
+
+            element.addEventListener('mouseout', () => {
+                if (element === selected) {
+                    element.style.backgroundColor = '#fffbda'; // Revert color when not hovering
+                    element.style.color = '#183153';
+                }
+                else{
+                    element.style.backgroundColor = '#FFEC9E'; // Revert color when not hovering
+                    element.style.color = '#183153';
+                }
+               
+            });
+        });
+        }
+
+
+    });
+});
+
+
+
+ </script>
+ 
+</body>
+</html>
